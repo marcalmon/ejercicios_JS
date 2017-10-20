@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS con Eze</title>
+	<!--<script type="text/javascript" src="js_eze.js"></script>-->
+</head>
+<body>
+
+	<script>
+		
+		var i=0;
+		var seguirIterando=true;
+
+		/*for(;;){
+			alert("Iteración de numero: "+i);
+
+			i+=2;
+			seguirIterando=i<10;
+		}*/
+
+		/*while(1){
+			alert("hola");
+			if(i===10){
+				break;
+			}
+			i++;
+		}
+
+		alert("2"==2);
+		alert("2"===2);*/
+
+		/*var str = "2";
+		var num = 2;
+
+		if(num===str){
+			alert(str + 10);
+			alert(num + 10);
+		}*/
+
+		var cadena = "soy una cadena";
+		var numeroCadena = "1999";
+		var numero = 1000;
+
+		//alert(cadena.length);
+		//alert(parseInt(numeroCadena) + 1);
+		//alert(numero + 1);
+		//alert(parseFloat(numeroCadena) + 1);
+
+		var total = 0;
+		for(var i=0; i<numeroCadena.length; i++){
+			total+= parseInt(numeroCadena.charAt(i));
+		}
+		alert(total);
+
+	</script>
+
+</body>
+</html>
