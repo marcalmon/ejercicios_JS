@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario con JS</title>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<p id="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum voluptas sequi placeat officiis minus ducimus rerum exercitationem quas, fuga porro facilis magni voluptatibus deserunt asperiores possimus, quaerat! Asperiores, cum.</p>
+	<button onclick="changeColor('blue');">azul</button><!--onclick: atributo propio de los botones-->
+	<button onclick="changeColor('red');">rojo</button>
+	<br>
+	<hr>
+	<div>
+		<label for="usuario">Email</label>
+		<input type="text" name="usuario" id="usuario" placeholder="usuario" required> 
+	</div>
+	<br>
+	<div>
+		<label for="password">Password</label>
+		<input type="text" name="password" id="password" placeholder="password" required> 
+	</div>
+
+	<div>
+		<button onclick="validar()"><!--Para enviar datos ingresados-->
+		Enviar
+		</button>
+	</div>
+
+	<!--<script>
+		function changeColor(color){
+			var e = document.getElementById('test');
+			e.style.color = nuevocolor;
+		}
+	</script>-->
+</body>
+</html>

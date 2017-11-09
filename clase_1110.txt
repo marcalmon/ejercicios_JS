@@ -1,0 +1,3 @@
+getElementById("btn")
+
+window.onload(){}=document.ready()//(jquey)

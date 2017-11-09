@@ -1,3 +1,5 @@
+//Métodos de arrays
+
 //var disfraces = new Array();//creo un nuevo objeto de clase Array
 
 //disfraces.push("Unicornio");

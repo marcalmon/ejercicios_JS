@@ -2,7 +2,7 @@
 
 var planetas = ["Mercurio", "Venus", "Tierra", "Marte", "Jupiter", "Saturno", "Urano", "Neptuno", "Plutón"];
 
-/*console.log(planetas.push(["Ofiuco", "Luna"]));
+console.log(planetas.push(["Ofiuco", "Luna"]));
 console.log(planetas);
 
 //var arrayDestroyed = planetas.pop();
@@ -17,6 +17,6 @@ planetas.unshift("Luna");
 console.log(planetas);
 
 planetas.shift();
-console.log(planetas);*/
+console.log(planetas);
 
 
