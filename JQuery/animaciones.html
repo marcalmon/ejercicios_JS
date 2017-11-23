@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animaciones</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="animaciones.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/animaciones.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Tabla</h2>
+		<br>
+		<button id="add" type="button" class="btn btn-default btn-md">Add</button>
+		<table class="table" id="tablita">
+			<thead>
+				<tr>
+					<th>Numero</th>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Edad</th>
+					<th>.</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="registro_1">
+					<td><input disabled id="n1" type="text" value="1"  class="registro1"></td>
+					<td><input disabled id="name1" type="text" value="Jaime" class="registro1"></td>
+					<td><input disabled id="ape1" type="text" value="Perez" class="registro1"></td>
+					<td><input disabled id="edad1" type="text" value="28" class="registro1"></td>
+					<td><button id="1" data-rg="#registro_1" type="button" class="btn btn-default btn-md btnBorrar"><span class="glyphicon glyphicon-trash"></span></button></td>
+					<td><button id="num1" data-rg =".registro1" type="button" class="btn btn-default btn-md btnEditar"><span class="glyphicon glyphicon-pencil"></span></button></td>	
+				</tr>
+				<tr id="registro_2">
+					<td><input disabled id="n2" type="text" value="2"  class="registro2"></td>
+					<td><input disabled id="name2" type="text" value="Lalo" class="registro2"></td>
+					<td><input disabled id="ape2" type="text" value="Pirulo" class="registro2"></td>
+					<td><input disabled id="edad2" type="text" value="32" class="registro2"></td>
+					<td><button id="2" data-rg="#registro_2" type="button" class="btn btn-default btn-md btnBorrar"><span class="glyphicon glyphicon-trash"></span></button></td>
+					<td><button id="num2" data-rg=".registro2" type="button" class="btn btn-default btn-md btnEditar"><span class="glyphicon glyphicon-pencil"></span></button></td>	
+				</tr>
+				<tr id="registro_3">
+					<td><input disabled id="n3" type="text" value="3"  class="registro3"></td>
+					<td><input disabled id="name3" type="text" value="Joaquin" class="registro3"></td>
+					<td><input disabled id="ape3" type="text" value="Burbuja" class="registro3"></td>
+					<td><input disabled id="edad3" type="text" value="45" class="registro3"></td>
+					<td><button id="3" data-rg="#registro_3" type="button" class="btn btn-default btn-md btnBorrar"><span class="glyphicon glyphicon-trash"></span></button></td>
+					<td><button id="num3" data-rg =".registro3" type="button" class="btn btn-default btn-md btnEditar"><span class="glyphicon glyphicon-pencil" ></span></button></td>	
+				</tr>
+				
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>

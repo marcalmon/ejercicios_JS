@@ -1,0 +1,18 @@
+/*#coleccion{
+	display: flex;
+	justify-content: space-around;
+}*/
+
+.imagen{
+	display: inline-block;
+
+}
+
+.caption{
+
+	text-align: center;
+}
+.negrita{
+
+	font-weight: bold;
+}
