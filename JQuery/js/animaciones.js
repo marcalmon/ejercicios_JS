@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
 	$('#add').on('click', function(){
@@ -25,9 +26,10 @@ $(document).ready(function(){
 		var rg = $(this).data('rg');
 		$(rg).hide(1000, function(){//hide() puede recibir 2 parametros, (speed, callback)
 
-			alert("El registro se borro correctamente!")
+			alert("El registro se borro correctamente!");
+
 		});
-;	});	
+	});	
 
 	/* <buttton id="b1" class="btn" name="boton">
 	.prop('id')
